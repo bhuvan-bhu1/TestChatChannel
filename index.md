@@ -3,15 +3,14 @@
     <script type='text/javascript'>
     	function initEmbeddedMessaging() {
     		try {
-          console.log('Hi Bhuvan!')
     			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-          
+    
     			embeddedservice_bootstrap.init(
-    				'00DDi000000F9yW',
-    				'A3_MyAccounts',
-    				'https://carefirst-hc360--devcc4.sandbox.my.site.com/ESWA3MyAccounts1746010772755',
+    				'00DWU00000JUnUz',
+    				'Test_Deployment',
+    				'https://dwu00000junuz2al-dev-ed.develop.my.site.com/ESWTestDeployment1746642713076',
     				{
-    					scrt2URL: 'https://carefirst-hc360--devcc4.sandbox.my.salesforce-scrt.com'
+    					scrt2URL: 'https://dwu00000junuz2al-dev-ed.develop.my.salesforce-scrt.com'
     				}
     			);
     		} catch (err) {
@@ -19,6 +18,6 @@
     		}
     	};
     </script>
-    <script type='text/javascript' src='https://carefirst-hc360--devcc4.sandbox.my.site.com/ESWA3MyAccounts1746010772755/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+    <script type='text/javascript' src='https://dwu00000junuz2al-dev-ed.develop.my.site.com/ESWTestDeployment1746642713076/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
   </body>
 </html>
