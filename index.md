@@ -3,8 +3,9 @@
     <script type='text/javascript'>
     	function initEmbeddedMessaging() {
     		try {
+          console.log('Hi Bhuvan!')
     			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-    
+          
     			embeddedservice_bootstrap.init(
     				'00DDi000000F9yW',
     				'A3_MyAccounts',
